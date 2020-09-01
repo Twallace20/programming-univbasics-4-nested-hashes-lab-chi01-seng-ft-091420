@@ -1,14 +1,15 @@
 require_relative "spec_helper"
 require_relative "../nested.rb"
 
-describe "Working with Nested Hashes -" do
-  describe "the hopper method" do
-    it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
-     programmer_hash = { 
-       :grace_hopper =>
 
-    end
-  end
+     programmer_hash = { 
+       :grace_hopper => {
+         :known_for => "COBOL"
+       },
+       :languages => [{
+         "COBOL", "FORTMAN"
+       }]
+
 
   describe "the alan_kay_is_known_for method" do
     it "operates on the programmer_hash and returns the value of what Alan Kay is known for" do
