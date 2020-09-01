@@ -4,7 +4,8 @@ require_relative "../nested.rb"
 describe "Working with Nested Hashes -" do
   describe "the hopper method" do
     it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
-      expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
+     programmer_hash = { 
+       :grace_hopper =>
 
     end
   end
