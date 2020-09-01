@@ -3,7 +3,7 @@
          :known_for => "COBOL"
        },
        :languages => [{
-         "COBOL", "FORTMAN"
+         first: "COBOL", second:"FORTMAN"
        }]
 
 
